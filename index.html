@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dadılar Blog</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #f4a261; color: white; padding: 20px; text-align: center; }
+    nav { background: #2a9d8f; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .hero { background: url('https://images.unsplash.com/photo-1516627145497-ae6968895b74') center/cover no-repeat; height: 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold; }
+    .container { padding: 20px; max-width: 1000px; margin: auto; }
+    .blog-post { border-bottom: 1px solid #ddd; padding: 15px 0; }
+    .blog-post h2 { margin: 0; color: #264653; }
+    .blog-post p { color: #333; }
+    footer { background: #264653; color: white; text-align: center; padding: 20px; margin-top: 30px; }
+    .social-icons a { color: white; margin: 0 10px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dadılar Blog</h1>
+    <p>Çocuk bakımı, ebeveynlik ve hayat kolaylaştırıcı ipuçları</p>
+  </header>
+
+  <nav>
+    <a href="#home">Anasayfa</a>
+    <a href="#blog">Blog</a>
+    <a href="#about">Hakkımızda</a>
+    <a href="#contact">İletişim</a>
+  </nav>
+
+  <div class="hero">
+    Dadılar.com Blog
+  </div>
+
+  <div id="home" class="container">
+    <h2>Hoş Geldiniz!</h2>
+    <p>Burada ebeveynler için faydalı içerikler, çocuk bakımı ipuçları ve güvenilir dadı seçimi hakkında rehberler bulacaksınız.</p>
+  </div>
+
+  <div id="blog" class="container">
+    <h2>Son Yazılar</h2>
+    <div class="blog-post">
+      <h2>İyi Bir Dadı Nasıl Seçilir?</h2>
+      <p>Dadı seçiminde dikkat edilmesi gerekenler, güvenlik önlemleri ve doğru adımlar.</p>
+    </div>
+    <div class="blog-post">
+      <h2>Çocuklar İçin Evde Oyun Fikirleri</h2>
+      <p>2-6 yaş arası çocuklar için yaratıcı ve eğitici oyun önerileri.</p>
+    </div>
+    <div class="blog-post">
+      <h2>Evde Sağlıklı Uyku Ortamı Nasıl Oluşturulur?</h2>
+      <p>Çocukların uyku düzenini iyileştirmek için pratik öneriler.</p>
+    </div>
+  </div>
+
+  <div id="about" class="container">
+    <h2>Hakkımızda</h2>
+    <p>Dadilar.com, ebeveynlere çocuk bakımı ve ev içi destek konularında rehberlik etmek için kurulmuş bir platformdur. Amacımız, ailelere güvenilir bilgi ve pratik çözümler sunmaktır.</p>
+  </div>
+
+  <div id="contact" class="container">
+    <h2>İletişim</h2>
+    <form>
+      <label>Adınız:</label><br>
+      <input type="text" name="name" style="width:100%; padding:8px;"><br><br>
+      <label>E-posta:</label><br>
+      <input type="email" name="email" style="width:100%; padding:8px;"><br><br>
+      <label>Mesajınız:</label><br>
+      <textarea name="message" rows="5" style="width:100%; padding:8px;"></textarea><br><br>
+      <button type="submit" style="background:#2a9d8f; color:white; padding:10px 20px; border:none;">Gönder</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dadılar Blog | Tüm Hakları Saklıdır.</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
