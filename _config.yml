@@ -1,0 +1,10 @@
+title: "Dadılar Blog"
+description: "Teknoloji, yaşam ve fikir içerikleri"
+url: "https://dadilar.com"
+baseurl: ""  # boş bırak çünkü custom domain kullanıyorsun
+
+theme: minimal-mistakes-jekyll
+
+author:
+  name: "Dadılar"
+  bio: "Yaşam ve teknoloji üzerine notlar"
